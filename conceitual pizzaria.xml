@@ -2,7 +2,7 @@
 <MER>
 	<Informacoes>
 		<Posicao Left="0" Top="0"/>
-		<TotalItens Valor="107"/>
+		<TotalItens Valor="111"/>
 		<Tipo Valor="CONCEITUAL"/>
 		<Versao Valor="2.0.0"/>
 		<Autor Valor=""/>
@@ -210,7 +210,40 @@
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
-      <Atributos/>
+      <Atributos>
+        <Atributo nome="codpedido" id="111">
+          <Left Valor="513"/>
+          <Top Valor="62"/>
+          <Width Valor="85"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="112"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="3">
+              <MostraCardinalidade Valor="0" Card_id="113"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+      </Atributos>
       <AtributosOcultos/>
       <Dicionario></Dicionario>
       <Nula Valor="0"/>

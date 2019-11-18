@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MER>
+	<Informacoes>
+		<Posicao Left="0" Top="0"/>
+		<TotalItens Valor="52"/>
+		<Tipo Valor="LÓGICO"/>
+		<Versao Valor="2.0.0"/>
+		<Autor Valor=""/>
+		<Observacao Valor=""/>
+		<Template>
+      <CAMPOS/>
+      <TIPOS/>
+      <COMPLEMENTO_CAMPOS/>
+      <COMPLEMENTO_TABELAS/>
+      <DDL>
+        <CTab_A>CREATE TABLE *$nome_tabela</CTab_A>
+        <CTab_B> (</CTab_B>
+        <CTab_Compl>*$compl_tabela</CTab_Compl>
+        <CTab_C>)*$separador*$\n</CTab_C>
+        <CCamp>*$nome_campo *$tipo_campo *$compl_campo</CCamp>
+        <Pk_inTab>-1</Pk_inTab>
+        <Fk_inTab>-1</Fk_inTab>
+        <Const_Nomear>0</Const_Nomear>
+        <CConst_Nome>*$nome_tabela_*$envol_campo</CConst_Nome>
+        <Separador></Separador>
+      </DDL>
+    </Template>
+	</Informacoes>
+	<Tabelas>
+    <Tabela nome="Cliente" id="1">
+      <Left Valor="89"/>
+      <Top Valor="99"/>
+      <Width Valor="134"/>
+      <Height Valor="118"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="codcliente" id="12">
+          <Left Valor="89"/>
+          <Top Valor="118"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="int"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="nome" id="8">
+          <Left Valor="89"/>
+          <Top Valor="136"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(100)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="rua" id="9">
+          <Left Valor="89"/>
+          <Top Valor="154"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(100)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="bairro" id="10">
+          <Left Valor="89"/>
+          <Top Valor="172"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(100)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="numero" id="11">
+          <Left Valor="89"/>
+          <Top Valor="190"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(4)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Pedido" id="2">
+      <Left Valor="310"/>
+      <Top Valor="51"/>
+      <Width Valor="147"/>
+      <Height Valor="50"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="codpedido" id="13">
+          <Left Valor="310"/>
+          <Top Valor="70"/>
+          <Width Valor="145"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="int"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Pizza Normal" id="3">
+      <Left Valor="628"/>
+      <Top Valor="76"/>
+      <Width Valor="134"/>
+      <Height Valor="82"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="quantidade" id="16">
+          <Left Valor="628"/>
+          <Top Valor="95"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varcahar(3)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="sabor" id="17">
+          <Left Valor="628"/>
+          <Top Valor="113"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(20)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Pizza Promocao" id="4">
+      <Left Valor="860"/>
+      <Top Valor="53"/>
+      <Width Valor="134"/>
+      <Height Valor="82"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="quantidade" id="19">
+          <Left Valor="860"/>
+          <Top Valor="72"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varcahar(3)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="sabor" id="20">
+          <Left Valor="860"/>
+          <Top Valor="90"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(20)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Bebidas" id="5">
+      <Left Valor="677"/>
+      <Top Valor="294"/>
+      <Width Valor="134"/>
+      <Height Valor="100"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="quantidade" id="22">
+          <Left Valor="677"/>
+          <Top Valor="313"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varcahar(3)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cerveja" id="23">
+          <Left Valor="677"/>
+          <Top Valor="331"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(20)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="refrigerante" id="24">
+          <Left Valor="677"/>
+          <Top Valor="349"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(20)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="agua" id="25">
+          <Left Valor="677"/>
+          <Top Valor="367"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="varchar(20)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Forma de pagamento" id="6">
+      <Left Valor="1028"/>
+      <Top Valor="314"/>
+      <Width Valor="134"/>
+      <Height Valor="82"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="a vista" id="26">
+          <Left Valor="1028"/>
+          <Top Valor="333"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Número(4)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cartao" id="27">
+          <Left Valor="1028"/>
+          <Top Valor="351"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Número(4)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cheque" id="28">
+          <Left Valor="1028"/>
+          <Top Valor="369"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Número(4)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+  </Tabelas>
+	<LigacaoEntreTabelas>
+    <LigaTabela nome="Cliente_Pedido_1" id="29">
+      <Left Valor="247"/>
+      <Top Valor="151"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="1">
+          <MostraCardinalidade Valor="-1" Card_id="30"/>
+          <Cardinalidades Cardinalidade="2">
+            <Cardinalidade nome="" id="30">
+              <Left Valor="223"/>
+              <Top Valor="143"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="2"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="31"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="31">
+              <Left Valor="383"/>
+              <Top Valor="102"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Pedido_Pizza Normal_1" id="32">
+      <Left Valor="500"/>
+      <Top Valor="79"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="33"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="33">
+              <Left Valor="457"/>
+              <Top Valor="61"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="3">
+          <MostraCardinalidade Valor="-1" Card_id="34"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="34">
+              <Left Valor="590"/>
+              <Top Valor="102"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Pizza Normal_Pizza Promocao_1" id="35">
+      <Left Valor="789"/>
+      <Top Valor="125"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="3">
+          <MostraCardinalidade Valor="-1" Card_id="36"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="36">
+              <Left Valor="762"/>
+              <Top Valor="102"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="4">
+          <MostraCardinalidade Valor="-1" Card_id="37"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="37">
+              <Left Valor="822"/>
+              <Top Valor="79"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Pizza Promocao_Bebidas_1" id="38">
+      <Left Valor="787"/>
+      <Top Valor="201"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="4">
+          <MostraCardinalidade Valor="-1" Card_id="39"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="39">
+              <Left Valor="927"/>
+              <Top Valor="136"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="5">
+          <MostraCardinalidade Valor="-1" Card_id="40"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="40">
+              <Left Valor="765"/>
+              <Top Valor="279"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Bebidas_Forma de pagamento_1" id="41">
+      <Left Valor="965"/>
+      <Top Valor="351"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="5">
+          <MostraCardinalidade Valor="-1" Card_id="42"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="42">
+              <Left Valor="811"/>
+              <Top Valor="329"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="6">
+          <MostraCardinalidade Valor="-1" Card_id="43"/>
+          <Cardinalidades Cardinalidade="2">
+            <Cardinalidade nome="" id="43">
+              <Left Valor="990"/>
+              <Top Valor="340"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="2"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Pizza Normal_Bebidas_1" id="44">
+      <Left Valor="712"/>
+      <Top Valor="219"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="3">
+          <MostraCardinalidade Valor="-1" Card_id="45"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="45">
+              <Left Valor="695"/>
+              <Top Valor="159"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="5">
+          <MostraCardinalidade Valor="-1" Card_id="46"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="46">
+              <Left Valor="721"/>
+              <Top Valor="279"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+  </LigacaoEntreTabelas>
+	<Texto>
+	</Texto>
+</MER>
